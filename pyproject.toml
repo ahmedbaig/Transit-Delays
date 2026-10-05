@@ -1,0 +1,16 @@
+[project]
+name = "transit-delays"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "geoalchemy2>=0.20.0",
+    "geopandas>=1.2.0",
+    "gtfs-realtime-bindings>=3.0.0",
+    "httpx>=0.28.1",
+    "jupyterlab>=4.6.4",
+    "pandas>=3.0.6",
+    "protobuf>=7.36.2",
+    "psycopg[binary]>=3.3.6",
+    "scikit-learn>=1.9.1",
+    "sqlalchemy>=2.1.3",
+]
